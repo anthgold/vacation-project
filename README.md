@@ -34,6 +34,6 @@ _{Tell me about the languages and tools you used to create this app. Assume that
 
 ### License
 
-*Released under the MIT license. God help you if you use this*
+*Released under the MIT license. God help you if you use this.*
 
 Copyright (c) 2016 **_Anthony C. Gold_**
