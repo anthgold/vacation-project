@@ -10,8 +10,10 @@
   <body>
     <!-- Header Section -->
       <div class="jumbotron">
+        <div class="container">
         <h1>Vacation Destination Finder</h1>
       </div>
+    </div>
       <!-- Quiz Section -->
       <div class="container">
         <h2>Answer the questions to find your ideal vacation destination:</h2>
@@ -187,19 +189,25 @@
             </label>
            </div>
          <!-- Submit button -->
-         <button type="submit" class="button">submit</button>
+         <div id="button">
+           <button type="submit" class="button">submit</button>
+         </div>
          <!-- End of quiz section -->
        </form>
       </div>
       <!-- Quiz Results -->
-      <div id="sandusky">
-          <p>Congratulations! You should vacation in Sandusky, Ohio!</p>
+    <div class="container">
+      <div id="result">
+        <div id="sandusky">
+            <label>Congratulations! You should vacation in Sandusky, Ohio!</label>
+        </div>
+        <div id="trenton">
+            <label>Congratulations! You should vacation in Trenton, New Jersey!</label>
+        </div>
+        <div id="detroit">
+            <label>Congratulations! You should vacation in Detroit!</label>
+        </div>
       </div>
-      <div id="trenton">
-          <p>Congratulations! You should vacation in Trenton, New Jersey!</p>
-      </div>
-      <div id="detroit">
-          <p>Congratulations! You should vacation in Detroit!</p>
-      </div>
+    </div>
   </body>
 </html>
