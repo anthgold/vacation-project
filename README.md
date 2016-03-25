@@ -24,16 +24,16 @@ _{Are there issues that have not yet been resolved that you want to let users kn
 
 ## Support and contact details
 
-Questions? Concerns? Email: anthgold@gmail.com
+Questions? Concerns? Pathos? Sushi? Email: anthgold@gmail.com
 
 ## Technologies Used
 
-_In addition to the assumed HTML and CSS, the project also uses JavaScript and JQuery (the point of the exercise), and Bootstrap
+In addition to the assumed HTML and CSS, the project also uses JavaScript and JQuery (the point of the exercise), and Bootstrap.
 
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
 
 ### License
 
-*{Released under the GPL.}*
+*Released under the MIT license. God help you if you use this*
 
-Copyright (c) 2016 **_{Anthony C. Gold}_**
+Copyright (c) 2016 **_Anthony C. Gold_**
