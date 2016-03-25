@@ -5,26 +5,198 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-1.12.2.js"></script>
     <script src="js/scripts.js"></script>
-    <title>Form Letter</title>
+    <title>Vacation Quiz</title>
   </head>
   <body>
-    <div class="container">
-      <div class="container">
-        <h1>Fill in the blank to get your letter!</h1>
-        <div id="blank">
-          <form>
-            <h2>Input your name:</h2>
-            <label for="name"></label>
-            <input id="name" type="text">
-            <button type="submit" class="btn">Show me the form letter!</button>
-          </form>
+    <!-- Header Section -->
+      <div class="jumbotron">
+        <h1>Vacation Destination Finder</h1>
       </div>
-
+      <!-- Quiz Section -->
+      <div class="container">
+        <h2>Answer the questions to find your ideal vacation destination:</h2>
+        <form>
+          <!-- Question 1 -->
+          <div id="flavor">
+             <label>What is your favorite flavor of icecream?</label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="flavor" value="0" checked type="radio">
+             Chocolate
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="flavor" value="10" type="radio">
+             Vanilla
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="flavor" value="20" type="radio">
+             Cookies &amp; Cream
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="flavor" value="30" type="radio">
+             Strawberry
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="flavor" value="40" type="radio">
+             Rocky Road
+           </label>
+          </div>
+         <!-- Question 2 -->
+          <div id="food">
+           <label>What is your favorite food?</label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="food" value="30" checked type="radio">
+             Chinese
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="food" value="20" type="radio">
+             Pizza
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="food" value="10" type="radio">
+             Mexican
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="food" value="0" type="radio">
+             Vegetarian
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="food" value="40" type="radio">
+             Sushi
+           </label>
+          </div>
+         <!-- Question 3 -->
+          <div id="date">
+           <label>What is your idea of a perfect first date?</label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="date" value="40" checked type="radio">
+             A romantic walk on the beach
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="date" value="20" type="radio">
+             Dinner and a movie
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="date" value="0" type="radio">
+             Drinks &amp; Dancing
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="date" value="10" type="radio">
+             The Symphony
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="date" value="30" type="radio">
+             Date? Let's knock boots!
+           </label>
+          </div>
+         <!-- Question 4 -->
+          <div id="pet">
+           <label>What is your favorite pet?</label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="pet" value="30" checked type="radio">
+             Dog
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="pet" value="40" type="radio">
+             Cat
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="pet" value="20" type="radio">
+             Bird
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="pet" value="0" type="radio">
+             Panda
+           </label>
+          </div>
+          <div class="radio">
+           <label>
+             <input name="pet" value="10" type="radio">
+             Tiger
+           </label>
+          </div>
+          <!-- Question 5 -->
+           <div id="pet">
+            <label>What is your favorite pet?</label>
+           </div>
+           <div class="radio">
+            <label>
+              <input name="pet" value="30" checked type="radio">
+              Dog
+            </label>
+           </div>
+           <div class="radio">
+            <label>
+              <input name="pet" value="40" type="radio">
+              Cat
+            </label>
+           </div>
+           <div class="radio">
+            <label>
+              <input name="pet" value="20" type="radio">
+              Bird
+            </label>
+           </div>
+           <div class="radio">
+            <label>
+              <input name="pet" value="0" type="radio">
+              Panda
+            </label>
+           </div>
+           <div class="radio">
+            <label>
+              <input name="pet" value="10" type="radio">
+              Tiger
+            </label>
+           </div>
+         <!-- Submit button -->
+         <button type="submit" class="button">submit</button>
+         <!-- End of quiz section -->
+       </form>
+      </div>
+      <!-- Quiz Results -->
       <div id="letter">
           <p>Dear <span class="name"></span>:</p>
           <p>My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand, <span class="name"></span>?</p>
           <p>Respecfully,</p>
           <p>Jules Winfield</p>
-      </div
+      </div>
   </body>
 </html>
