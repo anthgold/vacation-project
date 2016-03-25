@@ -1,6 +1,5 @@
 $(document).ready(function() {
-
-  // Score tabulation logic:
+  // Score tabulation logic
   $("form").submit(function(event) {
     // Set starting score to 0
     var score = 0;
@@ -9,34 +8,24 @@ $(document).ready(function() {
     score += result; // Re-sets score to score + result
     result = parseInt($("input:radio[name=food]:checked").val());
     score += result; // Re-resets score to score + result
-    result = parseInt($("input:radio[name=date]:checked").val());
+    result = parseInt($("input:radio[name=vaycay]:checked").val());
     score += result; // Re-resets score to score + result
     result = parseInt($("input:radio[name=pet]:checked").val());
     score += result; // Re-resets score to score + result
-    result = parseInt($("input:radio[name=foo]:checked").val());
+    result = parseInt($("input:radio[name=hobbies]:checked").val());
     score += result; // Re-resets score to score + result
 
-    // Result calculation and display logic:
-    if (score > 100) {
+    // Result calculation and display logic
+    if (score > 66) {
       $('#trenton').show();
     }
-    else if (score > 50) {
+    else if (score >= 33) {
       $('#sandusky').show();
-    }
-    else {
+    } else {
       $('#detroit').show();
     }
-    // Code snippet DELETE ME
-    // $("#blank form").submit(function(event) {
-    //
-    //   var nameInput = $("input#name").val();
-    //
-    //   $(".name").text(nameInput);
-    //
-    //   $("#letter").show();
-    //
-    //   event.preventDefault();
-    // });
     event.preventDefault();
+    // Verify placement of this
+    // How do I get it to re-set?
   });
 });
