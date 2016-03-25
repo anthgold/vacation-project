@@ -1,6 +1,8 @@
 $(document).ready(function() {
   // Score tabulation logic
   $("form").submit(function(event) {
+    // Hide any previous answers
+    $("#trenton, #sandusky, #detroit").hide();
     // Set starting score to 0
     var score = 0;
     // Tallies the point value from each quiz question
@@ -25,7 +27,5 @@ $(document).ready(function() {
       $('#detroit').show();
     }
     event.preventDefault();
-    // Verify placement of this
-    // How do I get it to re-set?
   });
 });
