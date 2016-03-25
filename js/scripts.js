@@ -1,14 +1,6 @@
 $(document).ready(function() {
-  // $("#blank form").submit(function(event) {
-  //
-  //   var nameInput = $("input#name").val();
-  //
-  //   $(".name").text(nameInput);
-  //
-  //   $("#letter").show();
-  //
-  //   event.preventDefault();
-  // });
+
+  // Score tabulation logic:
   $("form").submit(function(event) {
     // Set starting score to 0
     var score = 0;
@@ -23,18 +15,28 @@ $(document).ready(function() {
     score += result; // Re-resets score to score + result
     result = parseInt($("input:radio[name=foo]:checked").val());
     score += result; // Re-resets score to score + result
-    // Calculate results //
-    // CHANGE THIS SO IT ECHOES BACK IN THE DOCUMENT
-    // RATHER THAN AS AN ALERT
+
+    // Result calculation and display logic:
     if (score > 100) {
-      alert("Odessa, Ukraine");
+      $('#trenton').show();
     }
     else if (score > 50) {
-      alert("Berlin, Germany");
+      $('#sandusky').show();
     }
     else {
-      alert("Reykjavik, Iceland");
+      $('#detroit').show();
     }
+    // Code snippet DELETE ME
+    // $("#blank form").submit(function(event) {
+    //
+    //   var nameInput = $("input#name").val();
+    //
+    //   $(".name").text(nameInput);
+    //
+    //   $("#letter").show();
+    //
+    //   event.preventDefault();
+    // });
     event.preventDefault();
   });
 });
